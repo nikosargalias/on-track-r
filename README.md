@@ -9,7 +9,7 @@
 -   You can favorite books by clicking on the heart icon.
 -   Favorited books persis through a redux store which is linked to local state.
 
-Finally, I understand the project is a little messy, and there are plenty of improvements that can be made, but please consider the amounto f time I spent building this. I chose to opt for a slightly messier project with the ability to showcase more aspects of my skills (SCSS, React, Javascript, testing etc), rather than a cleaner more thought out project that doesnn't showcase as much! Please see below for some insight into each decision I made.
+Finally, I understand the project is a little messy, and there are plenty of improvements that can be made, for example I could have extracted a lot of the functionality in BooksList.tsx into other files. However, please consider the amount of time I spent building this. I chose to opt for a slightly messier project with the ability to showcase more aspects of my skills (SCSS, React, Javascript, testing etc), rather than a cleaner more thought out project that doesnn't showcase as much! Please see below for some insight into each decision I made.
 
 ## Redux
 
