@@ -1,0 +1,29 @@
+@import '../../Styles/abstracts.scss';
+
+.search {
+    position: relative;
+    width: 300px;
+
+    &__input {
+        background: transparent;
+        border: 3px solid $font-light;
+        padding: 0.2rem 0.5rem;
+        height: 2rem;
+        color: $font-light;
+        width: 100%;
+
+        &::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: $font-light;
+            opacity: 1; /* Firefox */
+        }
+    }
+
+    &__icon {
+        position: absolute;
+        right: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
+        pointer-events: none;
+    }
+}
