@@ -9,7 +9,7 @@
 -   You can favorite books by clicking on the heart icon.
 -   Favorited books persis through a redux store which is linked to local state.
 
-Finally, I understand the project is a little messy, and there are plenty of improvements that can be made, but please consider the amounto f time I spent building this. I chose to opt for a slightly messier project with the ability to showcase more aspects of my skills (SCSS, React, Javascript, testing etc), rather than a cleaner more thought out project that doesnn't showcase as much! Please see below for some insight into each decision I made. 
+Finally, I understand the project is a little messy, and there are plenty of improvements that can be made, but please consider the amounto f time I spent building this. I chose to opt for a slightly messier project with the ability to showcase more aspects of my skills (SCSS, React, Javascript, testing etc), rather than a cleaner more thought out project that doesnn't showcase as much! Please see below for some insight into each decision I made.
 
 ## Redux
 
@@ -54,3 +54,10 @@ I spent a little time implementing a favourite movies feature whereby you can cl
 ## More considerations I could have taken
 
 Another consideration I could have taken is to split up the file structure into Shared and Core components. For example, in the Shared components folder I could build no knowledge components such as Button, SearchInput etc. With the Core Components extending the Shared components when required. Once again, due to the swiftness and size of this project, I opted not to do this and stick with a single Components folder.
+
+## p.s
+
+I should have remembered that an object literal instantiates its property values before any value is accessed later on. I was simply thinking of method calls, whereas when you can them implicitely, (obj.method()), 'this' is bounded onto them (assuming they haven't been hard binded prior). It's a detail I certainly won't forget again! As for the other questions, I believe with a little revision, I should be adept at remembering the minute details of React, and I certainly admit that there is room for improvement on my part! If I did receive an offer, I would be very excited not only to share my knowledge, but to learn from yourself and your team, and keep improving my skills through personal development.
+
+Kind regards,
+Nikos
