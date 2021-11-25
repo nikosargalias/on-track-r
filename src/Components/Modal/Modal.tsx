@@ -46,11 +46,11 @@ const Modal = ({
                 ref={buttonRef}
             >
                 <div className='book__info'>
-                    <h2>Title: {book.book_title}</h2>
-                    <p>Author: {book.book_author}</p>
-                    <p>Publication city: {book.book_publication_city}</p>
-                    <p>Publication country: {book.book_publication_country}</p>
-                    <p>Publication year: {book.book_publication_year}</p>
+                    <h2>Title: {book?.book_title}</h2>
+                    <p>Author: {book?.book_author}</p>
+                    <p>Publication city: {book?.book_publication_city}</p>
+                    <p>Publication country: {book?.book_publication_country}</p>
+                    <p>Publication year: {book?.book_publication_year}</p>
                 </div>
                 <button
                     aria-label='Close popup'

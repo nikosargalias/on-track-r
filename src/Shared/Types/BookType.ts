@@ -1,11 +1,3 @@
-export type MovieType = {
-    book_auther: string[];
-    Year: string;
-    imdbID: string;
-    Type: string;
-    Poster: string;
-};
-
 export type BookType = {
     book_author: string[];
     book_pages: number;

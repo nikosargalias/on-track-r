@@ -1,4 +1,4 @@
-export function fetchbooks() {
+export function fetchBooks() {
     return new Promise(function (resolve, reject) {
         let xhr = new XMLHttpRequest();
         xhr.open('POST', 'http://nyx.vima.ekt.gr:3000/api/books');
