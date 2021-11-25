@@ -1,0 +1,55 @@
+@import '../../Styles/abstracts.scss';
+@import '../../Styles/media-query.scss';
+
+@mixin flex($spacing) {
+    display: flex;
+    justify-content: $spacing;
+}
+
+.book-list {
+    padding: 1.5rem;
+    background: $bg-primary;
+    border-radius: 5px;
+
+    & > :not(:last-child) {
+        margin-bottom: 1.5rem;
+    }
+
+    &__results {
+        @include flex(space-between);
+        align-items: center;
+    }
+
+    &__pagination {
+        @include flex(space-between);
+        align-items: center;
+        column-gap: 1.5rem;
+    }
+
+    &__movies {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+        gap: 1.5rem;
+        row-gap: 3rem;
+
+        @include media(tablet) {
+            grid-template-columns: repeat(2, minmax(200px, 1fr));
+        }
+        @include media(desktop) {
+            grid-template-columns: repeat(5, minmax(200px, 1fr));
+        }
+    }
+
+    &__no-results {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__toggle-fav {
+        background: none;
+        border: 3px solid white;
+        color: $font-light;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+    }
+}
