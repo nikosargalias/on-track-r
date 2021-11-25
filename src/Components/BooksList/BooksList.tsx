@@ -10,7 +10,7 @@ import Pagination from '../Pagination/Pagination';
 import { useSelector } from 'react-redux';
 import { addBook, removeBook } from '../../Store/favoriteBooks/actions';
 import { BookType } from '../../Shared/Types/BookType';
-import { fetchbooks } from '../../Helpers/fetchMovies';
+import { fetchbooks } from '../../Helpers/fetchBooks';
 import { SearchContext } from '../../Context/SearchContext';
 import Modal from '../Modal/Modal';
 
