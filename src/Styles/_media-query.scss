@@ -1,0 +1,12 @@
+$breakpoint: (
+    'mobile': 500px,
+    'tablet': 900px,
+    'desktop': 1260px,
+);
+
+@mixin media($device) {
+    $size: map-get($breakpoint, $device);
+    @media (min-width: $size) {
+        @content;
+    }
+}

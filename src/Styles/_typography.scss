@@ -1,0 +1,46 @@
+.title {
+    letter-spacing: 2px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 1.3;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    letter-spacing: 1.1px;
+    line-height: 1.5;
+    // text-transform: uppercase;
+}
+
+.body-text {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+.em-text {
+    font-size: 1rem;
+    font-style: italic;
+    letter-spacing: 4px;
+    line-height: 1.4;
+}
+
+h1 {
+    @extend .title;
+}
+
+h2 {
+    @extend .subtitle;
+}
+
+p {
+    @extend .body-text;
+}
+
+a,
+li,
+button,
+input {
+    @extend .body-text;
+}

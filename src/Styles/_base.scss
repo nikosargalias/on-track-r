@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-size: 75%;
+
+    @include media(desktop) {
+        font-size: 85%;
+    }
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: $font-light;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    border: none;
+    font-size: inherit;
+}
+
+a {
+    &:link {
+        -webkit-appearance: none;
+        color: rgb(130, 217, 239);
+        text-decoration: none;
+    }
+
+    &:active,
+    &:visited,
+    &:focus {
+        color: rgba(84, 158, 176, 0.9);
+    }
+
+    &:hover {
+        text-decoration: underline;
+        opacity: 0.8;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}
+
+button:hover {
+    cursor: pointer;
+}
