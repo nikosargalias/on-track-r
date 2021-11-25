@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+
+    .logo {
+        margin-right: 1rem;
+    }
+}
