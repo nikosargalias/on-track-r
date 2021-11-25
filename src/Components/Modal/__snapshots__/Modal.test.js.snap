@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="overlay modal"
+  id="modal-overlay"
+  onClick={[Function]}
+>
+  <article
+    className="modal__content js-modal__content"
+  >
+    <img
+      className="modal__img"
+      src="string"
+    />
+    <div
+      className="movie__info"
+    >
+      <h2>
+        string
+        <span>
+          string
+        </span>
+      </h2>
+      <p>
+        No Director information available
+      </p>
+      <p>
+        No cast information available
+      </p>
+      <p>
+        No movie description available
+      </p>
+    </div>
+    <button
+      aria-label="Close popup"
+      className="modal__close"
+      onClick={[Function]}
+    >
+      ✕
+    </button>
+  </article>
+</div>
+`;
