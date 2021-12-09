@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { BookCardProps } from './CardTypes';
 import { useDispatch } from 'react-redux';
 

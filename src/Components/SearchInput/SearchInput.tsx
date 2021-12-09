@@ -14,7 +14,7 @@ const SearchInput = ({ placeholder }: searchProps) => {
 
     useEffect(() => {
         handleSetSearchString(searchValue);
-    }, [searchValue]);
+    }, [searchValue, handleSetSearchString]);
 
     const handleChangeValue = (e: React.ChangeEvent<HTMLInputElement>) => {
         setSearchValue(e.target.value);

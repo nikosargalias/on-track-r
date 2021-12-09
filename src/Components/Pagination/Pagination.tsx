@@ -1,6 +1,4 @@
 // images
-import forwardArr from '../../assets/back-arrow.svg';
-import backArr from '../../assets/forward-arrow.svg';
 import { PAGE_CHANGE } from '../../Shared/Types/PageChange';
 import './Pagination.scss';
 

@@ -1,5 +1,4 @@
-import { configureStore, Reducer } from '@reduxjs/toolkit';
-import { stringify } from 'querystring';
+import { configureStore } from '@reduxjs/toolkit';
 import favoriteBooksReducer from './favoriteBooks/reducer';
 import { saveToLocalStorage } from '../localStorage/localStorage';
 

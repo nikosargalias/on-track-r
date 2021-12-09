@@ -1,5 +1,4 @@
 import { fetchBooks } from './fetchBooks';
-import { BookType } from '../Shared/Types/BookType';
 
 test('should return books array', () => {
     const returnedData = [

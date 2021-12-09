@@ -1,4 +1,4 @@
-import React, { memo } from 'react';
+import { memo } from 'react';
 import Header from '../Header/Header';
 import BooksList from '../BooksList/BooksList';
 import './HomePage.scss';

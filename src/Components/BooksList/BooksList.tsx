@@ -1,10 +1,7 @@
-import React, {
-    useCallback,
-    useContext,
-    useEffect,
-    useMemo,
-    useState,
-} from 'react';
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable array-callback-return */
+/* eslint-disable no-useless-escape */
+import React, { useCallback, useContext, useEffect, useState } from 'react';
 import BookCard from '../Card/BookCard';
 import Pagination from '../Pagination/Pagination';
 import { useSelector } from 'react-redux';
@@ -41,7 +38,6 @@ const MovieList = () => {
     useEffect(() => {
         fetchBooks()
             .then((books) => {
-                console.log(books);
 
                 setAllBooks(books);
                 setIsLoading(false);
@@ -102,7 +98,7 @@ const MovieList = () => {
                 />
             );
         },
-        [favoriteBooks]
+        [favoriteBooks, toggleModal]
     );
 
     const createBookCardsArray = useCallback(
@@ -130,7 +126,7 @@ const MovieList = () => {
             }
             return BookCards;
         },
-        [page, favoriteBooks, isShowFavorites, searchString]
+        [page, favoriteBooks, isShowFavorites, searchString, createCard]
     );
 
     useEffect(() => {
