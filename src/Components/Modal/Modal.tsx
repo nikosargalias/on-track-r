@@ -20,7 +20,7 @@ const Modal = ({
             }
             handleClose();
         },
-        []
+        [handleClose]
     );
 
     useEffect(() => {
@@ -33,7 +33,7 @@ const Modal = ({
                 focusElem.focus();
             }
         };
-    }, [buttonRef]);
+    }, [buttonRef, focusElem]);
     return (
         <div
             className='overlay modal'
