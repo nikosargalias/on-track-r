@@ -1,7 +1,7 @@
 export function fetchBooks() {
     return new Promise(function (resolve, reject) {
         let xhr = new XMLHttpRequest();
-        xhr.open('POST', 'https://nyx.vima.ekt.gr:3000/api/books');
+        xhr.open('POST', 'http://nyx.vima.ekt.gr:3000/api/books');
         xhr.onload = function () {
             if (this.status >= 200 && this.status < 300) {
                 resolve(xhr.response);
