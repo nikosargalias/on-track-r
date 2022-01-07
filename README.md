@@ -55,9 +55,3 @@ I spent a little time implementing a favourite movies feature whereby you can cl
 
 Another consideration I could have taken is to split up the file structure into Shared and Core components. For example, in the Shared components folder I could build no knowledge components such as Button, SearchInput etc. With the Core Components extending the Shared components when required. Once again, due to the swiftness and size of this project, I opted not to do this and stick with a single Components folder.
 
-## p.s
-
-I should have remembered that an object literal instantiates its property values before any value is accessed later on. I was simply thinking of method calls, whereas when you can them implicitely, (obj.method()), 'this' is bounded onto them (assuming they haven't been hard binded prior). It's a detail I certainly won't forget again! As for the other questions, I believe with a little revision, I should be adept at remembering the minute details of React, and I certainly admit that there is room for improvement on my part! If I did receive an offer, I would be very excited not only to share my knowledge, but to learn from yourself and your team, and keep improving my skills through personal development.
-
-Kind regards,
-Nikos
