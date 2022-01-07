@@ -1,5 +1,3 @@
-# Nikos Argalias - Senior Front-end Engineer Code Challenge: MMT at the Movies!
-
 ## IMPORTANT - Movies API - Please Read
 
 ## I have ensured the following features have been added:
